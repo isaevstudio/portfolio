@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar"></bodydata-bs-spy>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+    <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#">
+        <span class="d-block d-lg-none"><img src="assets/imgs/IV-3-nobg.png" alt="" style="height: 35px; width: auto;"></span>
+        <img class="d-none d-lg-block rounded-circle" src="./assets/imgs/me.png" alt="" style="width:182px; height:180px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!-- //NAVBAR -->
+<!-- CONTENT WRAPPER -->
+<div id="content-wrapper">
+        <section id="work" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">DEMO</h6>
+                        <h1>Graphs with descriptions</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4 pb-4" style="min-height: 595px;">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <canvas id="myChart1" style="background-color:white;"></canvas>
+                            </div>
+                            <div class="caard-custom-content p-4">
+                                <h4>Scatter plot</h4>
+                                <p>According to the plot, we can clearly see that there is a linear-relation between the house prices & house size. The bigger the size the higher the price, and vice-versa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <canvas id="myChart2" style="background-color:white;"></canvas>
+                            </div>
+                            <div class="caard-custom-content p-4">
+                                <h4>Doughnut</h4>
+                                <p>Having in total 278 users watching the stream, we can conclude that live-streaming videos are mostly watched on smart phones, then followed by computers, tablets & TV.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <canvas id="myChart3" style="background-color:white;"></canvas>
+                            </div>
+                            <div class="caard-custom-content p-4">
+                                <h4>Bar plot</h4>
+                                <p>We can conclude that even if the churn rate in 2021 increased up to 87 customers, the company is doing better than 2020 as the customer rate retention has increased. Additionally, in 2022 there were no customer churns and customer base has increased by 56% compared to 2020.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <canvas id="myChart4" style="background-color:white;"></canvas>
+                            </div>
+                            <div class="caard-custom-content p-4">
+                                <h4>Mixed chart: Bar&Line charts</h4>
+                                <p>The following chart tells us that African population is increasing rapidly since 1990. Especially, from 1999 the population growth will get more steeper. The prediction shows us the steep growth till 2050. Meanwhile, in Europe the growth is more stable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gy-4" style="min-height: 595px;">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <canvas id="myChart5" style="background-color:white;"></canvas>
+                            </div>
+                            <div class="caard-custom-content p-4">
+                                <h4>Bubble chart</h4>
+                                <p>Perhaps we can say that people are increasingly concerned with wellbeing and less focused on standard economic measures of progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+            <!-- FOOTER -->
+            <footer class="py-5 px-lg-5">
+                <div class="container">
+                    <div class="row gy-4 justify-content-between">
+                        <div class="col-auto">
+                            <p class="mb-0">PORTFOLIO-IVSTUDIO</p>
+                        </div>
+                        <div class="col-auto">
+                            <div class="social-icons">
+                                <a href="https://github.com/isaevstudio"><i class="lab la-github"></i></a>
+                                <a href="https://instagram.com/_isaevs?igshid=YmMyMTA2M2Y="><i class="lab la-instagram"></i></a>
+                                <a href="https://www.facebook.com/isaevparviz?mibextid=LQQJ4d"><i class="lab la-facebook"></i></a>
+                                <a href="https://tj.linkedin.com/in/parviz-isaev/en"><i class="lab la-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- //FOOTER -->
+    
+        </div>
+        <!-- //CONTENT WRAPPER -->
+    
+    
+    
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="./assets/js/script.js"></script>
+    
+    </body>
+    </html>
