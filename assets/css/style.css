@@ -38,6 +38,18 @@ img{
     width: 100%;
 }
 
+.educ-wrk img {
+    width: 10%;
+    margin: 20px 0px 20px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.caard-custom-content{
+    padding-top: 2px !important;
+}
+
 .text-brand{
     color: var(--color-brand);
 }
@@ -62,7 +74,7 @@ img{
 }
 
 .shadow-effect:hover{
-    box-shadow: -6px 6px 0 0 var(--color-brand);
+    box-shadow: -3px 3px 0 0 var(--color-brand);
 }
 
 .iconbox{
@@ -170,6 +182,10 @@ img{
     transform: scale(1.1);
 }
 
+#references .col-md-4:hover{
+    transform: scale(1.1);
+}
+
 /* LANGUAGE */
 
 .skills_container{
@@ -240,4 +256,7 @@ img{
     border-color: var(--color-base);
     border-radius: 100px;
     font-size: 45px;
+}
+.exp-div{
+    margin-top: 25px;
 }
