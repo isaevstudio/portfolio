@@ -77,6 +77,10 @@ img{
     box-shadow: -3px 3px 0 0 var(--color-brand);
 }
 
+.shadow-effect-2:hover{
+    box-shadow: 0px 0px 6px 6px var(--color-brand);
+}
+
 .iconbox{
     width: 60px;
     height: 60px;
@@ -164,6 +168,15 @@ img{
     transition: all .4s;
 }
 
+.link-custom-2:after{
+ 
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left:0;
+
+}
+
 .link-custom:hover:after{
     width: 100%;
 }
@@ -182,7 +195,11 @@ img{
     transform: scale(1.1);
 }
 
-#references .col-md-4:hover{
+#references .card-custom .review{
+    transition: all .4s ease;
+}
+
+#references .card-custom:hover .review{
     transform: scale(1.1);
 }
 
